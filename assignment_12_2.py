@@ -1,3 +1,5 @@
+# Follow the links - Coursera_Python for everyone
+
 import urllib.request, urllib.parse, urllib.error
 from bs4 import BeautifulSoup
 import ssl
