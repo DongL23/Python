@@ -37,13 +37,11 @@ while True:
     lst = tree.findall('comments/comment')
     print('Count:', len(lst))
 
-    count_list = list()
+    
     sum = 0
     for item in lst:
         counts = item.find('count').text
-        count_list.append(counts)
-    for i in count_list:
-        sum += int(i)
+        sum += int(counts)
     print('Sum:', sum)
 
 
